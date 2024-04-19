@@ -21,11 +21,7 @@ def get_elevation(lat, long):
     r = requests.get(query).json()
     elevation = pd.io.json.json_normalize(r, 'results')['elevation'].values[0]
     return elevation
-# ssh-keygen -t rsa -C "295620963@qq.com"
-# /Users/cc/Documents/资料/hx/pv_predict
-# https://cloud.tencent.com/developer/article/1952247
 
-# 下周一，
 
 class Base():
     def __init__(self, json):
