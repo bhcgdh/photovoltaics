@@ -1,0 +1,140 @@
+{
+    "name": "test1",
+    "longitude": 113.772097,
+    "latitude": 29.11,
+    "altitude": 200,
+    "scale": 758.7,
+    "freq": "15Min",
+    "ftperiod": "ultra",
+    "timezone": "Asia/Shanghai",
+    "type": 1,
+    "train": 0,
+    "model_path": "../models",
+    "data_colname": {
+        "pw": "pw",
+        "t": "t"
+    },
+    "data": [
+        {
+            "windspeed": 0.4,
+            "ir": 0.0,
+            "t": 1642364100000,
+            "humidity": 81.5,
+            "pw": 0.32,
+            "temp": 19.2
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642365000000,
+            "humidity": 81.5,
+            "pw": 0.32,
+            "temp": 19.1
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642365900000,
+            "humidity": 82.0,
+            "pw": 0.32,
+            "temp": 19.1
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642366800000,
+            "humidity": 82.1,
+            "pw": 0.32,
+            "temp": 19.1
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642367700000,
+            "humidity": 82.3,
+            "pw": 0.32,
+            "temp": 18.9
+        },
+        {
+            "windspeed": 0.3,
+            "ir": 0.0,
+            "t": 1642368600000,
+            "humidity": 82.7,
+            "pw": 0.32,
+            "temp": 18.9
+        },
+        {
+            "windspeed": 0.4,
+            "ir": 0.0,
+            "t": 1642369500000,
+            "humidity": 83.0,
+            "pw": 0.32,
+            "temp": 18.8
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642370400000,
+            "humidity": 83.4,
+            "pw": 0.32,
+            "temp": 18.8
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642371300000,
+            "humidity": 83.5,
+            "pw": 0.32,
+            "temp": 18.7
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642372200000,
+            "humidity": 83.8,
+            "pw": 0.32,
+            "temp": 18.7
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642373100000,
+            "humidity": 84.1,
+            "pw": 0.32,
+            "temp": 18.6
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642374000000,
+            "humidity": 84.2,
+            "pw": 0.32,
+            "temp": 18.5
+        },
+        {
+            "windspeed": 0.5,
+            "ir": 0.0,
+            "t": 1642374900000,
+            "humidity": 84.6,
+            "pw": 0.32,
+            "temp": 18.6
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642375800000,
+            "humidity": 84.5,
+            "pw": 0.32,
+            "temp": 18.6
+        },
+        {
+            "windspeed": 0.0,
+            "ir": 0.0,
+            "t": 1642376700000,
+            "humidity": 84.7,
+            "pw": 0.32,
+            "temp": 18.6
+        }
+    ],
+    "test": 0
+}

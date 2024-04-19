@@ -1,0 +1,113 @@
+{
+    "ultra_pred_wea": {
+        "name": "test1",
+        "longitude": 113.772097,
+        "latitude": 29.11,
+        "altitude": 200,
+        "scale": 758.7,
+        "freq": "15Min",
+        "ftperiod": "ultra",
+        "timezone": "Asia/Shanghai",
+        "type": 1,
+        "train": 1,
+        "model_path": "../models",
+        "data_colname": {
+            "temp": "temp",
+            "t": "t"
+        },
+        "train_split": 1,
+        "data_path": {
+            "filepath": "/Users/cc/Documents/资料/hx/prepross/Data/d1_changyuan/df_test.csv"
+        }
+    },
+    "ultra_pred_pw": {
+        "name": "test1",
+        "longitude": 113.772097,
+        "latitude": 29.11,
+        "altitude": 200,
+        "scale": 758.7,
+        "freq": "15Min",
+        "ftperiod": "ultra",
+        "timezone": "Asia/Shanghai",
+        "type": 1,
+        "train": 1,
+        "train_split": 1,
+        "model_path": "../models",
+        "data_colname": {
+            "pw": "pw",
+            "t": "t"
+        },
+        "data_path": {
+            "filepath": "/Users/cc/Documents/资料/hx/prepross/Data/d1_changyuan/df_test.csv"
+        }
+    },
+    "ultra_pred_pw_wea": {
+        "name": "test1",
+        "longitude": 113.772097,
+        "latitude": 29.11,
+        "altitude": 200,
+        "scale": 758.7,
+        "train_split": 1,
+        "freq": "15Min",
+        "ftperiod": "ultra",
+        "timezone": "Asia/Shanghai",
+        "type": 1,
+        "train": 1,
+        "model_path": "../models",
+        "data_colname": {
+            "pw": "pw",
+            "t": "t",
+            "temp": "temp"
+        },
+        "data_path": {
+            "filepath": "/Users/cc/Documents/资料/hx/prepross/Data/d1_changyuan/df_test.csv"
+        }
+    },
+    "short_pred_wea": {
+        "name": "test1",
+        "longitude": 113.772097,
+        "latitude": 29.11,
+        "altitude": 200,
+        "scale": 758.7,
+        "freq": "15Min",
+        "ftperiod": "short",
+        "timezone": "Asia/Shanghai",
+        "type": 1,
+        "train_split": 1,
+        "train": 1,
+        "model_path": "../models",
+        "data_colname": {
+            "pw": "pw",
+            "t": "t",
+            "temp": "temp"
+        },
+        "data_path": {
+            "filepath": "/Users/cc/Documents/资料/hx/prepross/Data/d1_changyuan/df_test.csv"
+        }
+    },
+    "meidum_pred_wea": {
+        "name": "test1",
+        "longitude": 113.772097,
+        "latitude": 29.11,
+        "altitude": 200,
+        "scale": 758.7,
+        "freq": "15Min",
+        "ftperiod": "medium",
+        "train_split": 1,
+        "timezone": "Asia/Shanghai",
+        "type": 1,
+        "train": 1,
+        "model_path": "../models",
+        "data_colname": {
+            "pw": "pw",
+            "t": "t",
+            "temp": "temp"
+        },
+        "data_path": {
+            "filepath": "/Users/cc/Documents/资料/hx/prepross/Data/d1_changyuan/df_test.csv"
+        }
+    }
+}
+
+
+
